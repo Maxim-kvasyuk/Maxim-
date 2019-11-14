@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+   html, body {
+     width: 100%;
+     display: grid;
+     }﻿
+
+   .wrapper {
+     width: 100%;
+     height: auto;
+     display: grid;
+   }
+
+h2 {
+   text-align: center;
+   margin: 5%;
+   font-family: 'Roboto';
+   font-weight: 450;
+   font-size: 180%;
+   grid-column: 1/2;
+   grid-row: 1/2;
+}
+
+   .login {
+    width: 25%;
+    height: 230px;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #e6e8e6;
+    border-radius: 12px;
+    border: 1px solid #ced1cd;
+    justify-self: center;
+    align-self: center;
+   }
+
+   .login h1 {
+      text-align: center;
+      width: 100%;
+      display: grid;
+      grid-column: 1/2;
+      grid-row: 1/2;
+      align-self: center;
+   }
+
+   .authlogin {
+    width: 100%;
+    grid-template-columns: 1fr;
+   }
+
+   .authlogin form {
+      grid-template-columns: 1fr;
+   }
+
+   #authlogin h5 {
+      width: 100%;
+      grid-column: 1/2;
+      grid-row: 1/2;
+   }
+
+   .loginv {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 25% 75%;
+   }
+
+   .loginp {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 25% 75%;
+   }
+
+   .admsubmit {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 25% 75%;
+   }
+
+   p.loginl {
+      width: 100%;
+      grid-column: 1/2;
+      grid-row: 1/2;
+   }
+
+   p.pass {
+      width: 100%;
+      grid-column: 1/2;
+      grid-row: 1/2;
+   }
+
+   form.redactor {
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+   }
+
+   button.redactor {
+      width: 80px;
+   }
+
+   input.logsubmit {
+      width: 50%;
+      display: grid;
+      grid-column: 2/3;
+      text-align: center;
+      justify-self: center;
+
+   }
+
+   h1 {
+      text-align: center;
+      margin: 5%;
+      font-family: 'Roboto';
+      font-weight: 450;
+      grid-column: 1/2;
+      grid-row: 2/3;
+   }
+
+   .auth, .vihod {
+    width: 25%;
+    margin-top: 2%;
+    display: grid;
+    grid-row: 1/2;
+    grid-template-columns: 25% 75%;
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: flex-end;
+   }
+
+   .auth img, .vihod img {
+      grid-column: 1/2;
+      width: 50%;
+      justify-self: center;
+      align-self: center;
+   }
+
+   .auth a, .vihod a {
+      text-decoration: none;
+      margin-top: 2%;
+      text-align: left;
+      font-family: 'Roboto';
+      font-weight: 450;
+      font-size: 140%;
+      align-self: center;
+   }
+
+   .content {
+      width: 100%;
+      display: grid;
+   }
+
+   .adm-ob {
+      width: 95%;
+      grid-column: 1/2;
+      border: 1.3px solid black;
+      display: grid;
+      grid-template-columns: 10% 20% 25% 17% 13% 15%;
+   }
+
+   .obsvyaz {
+      grid-column: 1/5;
+   }
+
+   .zadachi-ob {
+      width: 90%;
+      margin-top: 2%;
+      font-family: 'Roboto';
+      border: 1.3px solid black;
+      font-size: 120%;
+      display: grid;
+      grid-template-columns: 15% 27% 35% 23%;
+      justify-self: center;
+      align-items: center;
+   }
+
+   .namez, .namee, .nameza, .names, .namev, .namer {
+      display: grid;
+      grid-template-columns: 80% 20%;
+      border: 1.3px solid black;
+      align-self: center;
+   }
+
+   .namez a img, .namee a img, .nameza a img, .names a img, .namev a img, .namer a img {
+      width: 30px;
+      margin-top: 3%;
+      display: grid;
+      align-self: center;
+      justify-self: center;
+   }
+
+   .namez a, .namee a, .nameza a, .names a, .namev a, .namer a {
+      align-self: center;
+      justify-self: center;
+   }
+
+   .namez p, .namee p, .nameza p, .names p, .namev p, .namer p {
+      align-self: center;
+   }
+
+   .name {
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      border: 1.3px solid black;
+      grid-column: 1/2;
+      align-self: center;
+   }
+
+   .email {
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      border: 1.3px solid black;
+      grid-column: 2/3;
+      align-self: center;
+   }
+
+   .zadacha {
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      border: 1.3px solid black;
+      grid-column: 3/4;
+      align-self: center;
+   }
+
+   .status {
+      height: 100%;
+      width: 100%;
+      border: 1.3px solid black;
+      grid-column: 4/5;
+      align-self: center;
+   }
+
+   form.loginob {
+      margin-top: 1%;
+      grid-column: 1/5;
+   }
+
+ .vipolneno {
+    width: 100%;
+    border: 1.3px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+  .vipolneno form {
+     grid-template-columns: 1fr;
+ }
+
+ .vipolneno button {
+    width: 100%;
+    height: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+.redact {
+   width: 100%;
+   border: 1.3px solid black;
+   display: grid;
+   grid-template-columns: 1fr;
+
+}
+
+.redact button {
+   width: 90%;
+   height: 30px;
+   justify-self: center;
+   align-self: center;
+}
+
+   p {
+      margin-left: 3%;
+      display: grid;
+      font-family: 'Roboto';
+      font-size: 120%;
+      color: #000;
+      align-self: center;
+   }
+
+   div {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      display: grid;
+      justify-self: center;
+      align-self: center;
+   }
+
+   .dobavit-zadachu {
+      width: 100%;
+      margin-top: 1%;
+      display: grid;
+      grid-column: 1/7;
+      grid-row: 2/3;
+   }
+
+   .dobavit-zadachu p {
+      grid-column: 1/7;
+   }
+
+   .cifri {
+      width: 30%;
+      display: grid;
+      margin-top: 5%;
+      grid-column: 1/2;
+      grid-template-columns: repeat(5, auto);
+   }
+
+   .cifri a {
+      text-decoration: none;
+      font-family: 'Roboto';
+      font-size: 150%;
+      color: #000;
+      justify-self: center;
+      align-self: center;
+   }
+
+   .err-vivod {
+
+   }
+
+   h3 {
+      width: 100%;
+      text-align: center;
+      grid-column: 1/5;
+      grid-row: 1/2;
+   }
+
+   form {
+      width: 90%;
+      margin-bottom: 1%;
+      display: grid;
+      grid-template-columns: 20% 25% auto 15%;
+      grid-column: 1/5;
+      grid-gap: 10px;
+      justify-self: center;
+      align-self: center;
+   }
+
+   input {
+      border-radius: 7px;
+      border: 1px solid grey;
+      height: 30px;
+      font-size: 100%;
+      align-self: center;
+   }
+
+   input#name {
+      width: 100%;
+      grid-column: 1/2;
+      grid-row: 1/2;
+      text-align: center;
+   }
+
+   input#email {
+      width: 100%;
+      grid-column: 2/3;
+      grid-row: 1/2;
+      text-align: center;
+   }
+
+   input#text {
+      width: 100%;
+      grid-column: 3/4;
+      grid-row: 1/2;
+      text-align: center;
+   }
+
+   input#submit {
+      width: 100%;
+      grid-column: 4/5;
+      grid-row: 1/2;
+      text-align: center;
+
+   }
+
+   input.submit {
+      grid-column: 4/5;
+   }
+
+   form p {
+      width: 100%;
+      grid-column: 1/5;
+      grid-row: 1/2;
+      text-align: center;
+   }
+
+   #pagination {
+      width: 100%;
+      grid-column: 1/4;
+      text-align: center;
+      margin-top: 5%;
+   }
+
+   .redact-ob {
+      width: 100%;
+      margin-top: 2%;
+      display: grid;
+      grid-template-columns: 10% 15% 35% 10% 10% 20%;
+      justify-self: center;
+   }
